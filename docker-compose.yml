@@ -7,3 +7,4 @@ services:
       - '8000:80'
   volumes:
       - ./itop-extensions:/var/www/html/extensions
+      - ./itop-conf:/var/www/html/conf 
